@@ -1,0 +1,40 @@
+#unlocked, #boom, #light, #patronus, #secret  {
+    display:none;
+}
+h1 {
+    color:lightpink;
+    font-family: 'Amatic SC', cursive;
+}
+.spell {
+    color:lightSeagreen;
+    font-family: 'Bad Script', cursive;
+}
+.info {
+    color:mediumAquamarine;
+    font-family: 'Architects Daughter', cursive;
+}
+body {
+    background-color:palevioletred;
+    text-align:center;
+    border:solid 20px lightpink;
+}
+#locked, #unlocked, #door, #boom, #dark, #light, #luna, #patronus {
+    width:420px;
+    height:350px;
+    align-self:center;
+}
+button {
+    display:block;
+    align-self:center;
+    margin:20px;
+    color:palevioletred;
+}
+.main {
+    display:flex;
+    flex-direction:column;
+    margin:10px;
+}
+.header {
+    display:flex;
+    flex-direction:column;
+}
